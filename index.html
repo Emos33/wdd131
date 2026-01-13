@@ -3,56 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
-    <meta name="description" content="This is WDD 131 - Dynamic Web Fundamentals course page - Amos Bello">
+
+    <title>WDD 131 – Dynamic Web Fundamentals – Amos Bello</title>
+
+    <meta name="description"
+          content="WDD 131 – Dynamic Web Fundamentals course page for Amos Bello, featuring web development resources and personal information.">
     <meta name="author" content="Amos Bello">
+
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
-
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>WDD 131 - Dynamic Web fundamentals - Amos</h1>
 
 <header>
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+
     <nav>
         <ul>
-            <li><a href="index.html">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
             <li><a href="https://byupw.instructure.com/">Canvas</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng">Scripture</a></li>
-            <li><a href="resources.html">Final Project</a></li>
+            <li>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng">
+                    Scripture
+                </a>
+            </li>
+            <li><a href="projects/">Final Project</a></li>
         </ul>
     </nav>
 </header>
+
 <main>
     <h1>Amos Bello</h1>
+
     <section class="card">
         <h2>About Me</h2>
-        <p>Hello! My name is Amos Bello. I am a student at Seattle Central College pursuing a degree in Web Development. I have a passion for creating dynamic and user-friendly web applications.</p>
+         <img src="images/profile.jpg" alt="passport photo of Amos Bello" width="200">
+        <p>
+            Hello! My name is Amos Bello. I am a student pursuing web development
+            and I enjoy building accessible and user-friendly websites.
+        </p>
     </section>
+
     <section class="card">
-        <h2>Web Dev resources</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Dev.to Community</a></li>
-                <li><a href="https://byupw.instructure.com/">Smashing Magazine</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng">CSS Tricks</a></li>
-                <li><a href="resources.html">W3 Schools</a></li>
-                <li><a href="resources.html">Udemy</a></li>
-                <li><a href="resources.html">Lorem Picsum Image Placeholder</a></li>
-            </ul>
-        </nav>
-        
+        <h2>Web Development Resources</h2>
+        <ul>
+            <li><a href="https://dev.to/">Dev.to Community</a></li>
+            <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+            <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <li><a href="https://www.udemy.com/">Udemy</a></li>
+            <li><a href="https://picsum.photos/">Lorem Picsum</a></li>
+        </ul>
     </section>
 </main>
+
 <footer>
-    <p>
-        © <span id="currentYear"></span> Amos Bello | Nigeria
-    </p>
-  
+    <p>© <span id="currentYear"></span> Amos Bello | Nigeria</p>
+    <p id="lastModified"></p>
+
 </footer>
+
 </body>
-</html>  
+</html>

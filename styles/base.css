@@ -1,17 +1,31 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
-
-}
-h1 {
-    
-    font-weight: 400;
+    margin: 0;
+    line-height: 1.6;
 }
 
+/* Header */
 header {
     text-align: center;
+    padding: 1rem;
+    background-color: rgb(32, 32, 122);
+    color: white;
 }
 
+#course-title {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Navigation (Flexbox) */
 nav ul {
     display: flex;
     list-style: none;
@@ -21,12 +35,69 @@ nav ul {
 
 nav ul li {
     flex: 1;
-    text-align: center;
 }
 
-nav ul li a:hover {
+nav ul li a {
     display: block;
     padding: 1rem;
     text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: lightgray;
     color: black;
+}
+
+/* Main layout */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /*repeat(auto-fit, minmax(300px, 1fr)); */
+    gap: 1rem;
+}
+
+.card img {
+    float: right;
+    width: 125px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 10px;
+}
+
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+main h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+    background-color: rgb(32, 32, 122);
+    color: white;
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abuja, Nigeria</title>
+
+  <link rel="stylesheet" href="styles/place-large.css">  
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>Abuja, Nigeria</h1>
+</header>
+
+<main>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <picture>
+      <source srcset="images/hero-small.webp" media="(max-width: 600px)">
+      <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+      <img src="images/hero-large.webp" alt="City view of Nigeria">
+    </picture>
+  </section>
+
+  <!-- Content Grid -->
+  <section class="content">
+
+    <!-- About -->
+    <section class="card">
+      <h2>About Abuja</h2>
+      <p>
+        Abuja is the capital city of Nigeria, known for its modern architecture,
+        peaceful layout, and central location within the country.
+      </p>
+    </section>
+
+    <!-- Weather -->
+    <section class="card weather">
+      <h2>Weather</h2>
+
+      <!-- Mobile weather icon -->
+      <img src="images/weather.svg" alt="Weather icon" class="weather-icon">
+
+      <p>Temperature: <span id="temp">28</span>°C</p>
+      <p>Wind Speed: <span id="wind">10</span> km/h</p>
+      <p>Wind Chill: <span id="windchill"></span></p>
+    </section>
+
+  </section>
+</main>
+
+<footer>
+  <p>
+    © <span id="year"></span> | Bello Amos | Nigeria  
+    <br>
+    Last Modified: <span id="lastModified"></span>
+  </p>
+</footer>
+
+</body>
+</html>

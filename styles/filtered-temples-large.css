@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+
+
+#menuButton {
+    display: none;
+}
+
+
+nav {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+
+nav a {  
+    padding: 1rem 1.5rem;
+}
+
+
+.gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}

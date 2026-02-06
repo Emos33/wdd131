@@ -3,6 +3,22 @@
   box-sizing: border-box;
 }
 
+/* ===== Responsive Layout (Media Query Required) ===== */
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+  }
+
+  .rating {
+    justify-content: space-around;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;

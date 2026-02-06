@@ -4,11 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Review Form</title>
+  <meta name="description"
+          content="WDD 131 | Dynamic Web Fundamentals course page for Amos Bello, featuring web development resources and Assignment on HTML form.">
+  <meta name="author" content="Amos Bello">
+
   <link rel="stylesheet" href="styles/form.css">
   <script src="scripts/form.js" defer></script>
 </head>
 
 <body>
+  <header>
+    <h1>Fill out a review form below</h1>
+  </header> 
   <main>
     <h1>Product Review</h1>
 
@@ -24,11 +31,11 @@
       <fieldset>
         <legend>Overall Rating</legend>
         <div class="radiob">
-            <label><input type="radio" name="rating" value="1" required> ☆</label>
-            <label><input type="radio" name="rating" value="2"> ☆☆</label>
-            <label><input type="radio" name="rating" value="3"> ☆☆☆</label>
-            <label><input type="radio" name="rating" value="4"> ☆☆☆☆</label>
-            <label><input type="radio" name="rating" value="5"> ☆☆☆☆☆</label>
+            <label><input type="radio" id="rating1" name="rating" value="1" required> ☆</label>
+            <label><input type="radio" id="rating2" name="rating" value="2"> ☆☆</label>
+            <label><input type="radio" id="rating3" name="rating" value="3"> ☆☆☆</label>
+            <label><input type="radio" id="rating4" name="rating" value="4"> ☆☆☆☆</label>
+            <label><input type="radio" id="rating5" name="rating" value="5"> ☆☆☆☆☆</label>
       </div>
       </fieldset>
 
@@ -40,12 +47,12 @@
       <fieldset>
         <legend>Useful Features</legend>
         <div class="featuresc">
-            <label><input type="checkbox" name="features" value="energy"> Energy Saving</label>
-            <label><input type="checkbox" name="features" value="durable"> Durability</label>
-            <label><input type="checkbox" name="features" value="easy"> Easy Installation</label>
-            <label><input type="checkbox" name="features" value="design"> Modern Design</label>
+            <label><input type="checkbox" id="feature1" name="features" value="energy"> Energy Saving</label>
+            <label><input type="checkbox" id="feature2" name="features" value="durable"> Durability</label>
+            <label><input type="checkbox" id="feature3" name="features" value="easy"> Easy Installation</label>
+            <label><input type="checkbox" id="feature4" name="features" value="design"> Modern Design</label>
       </div>
-      
+
         </fieldset>
       </fieldset>
 

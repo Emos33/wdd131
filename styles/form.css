@@ -1,0 +1,154 @@
+/* ===== Reset & Base ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3b003b;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #3b003b;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* ===== Main Form Card ===== */
+main {
+  max-width: 420px;
+  margin: 1rem auto;
+  background-color: #dcd6db;
+  padding: 1rem;
+}
+
+/* ===== Labels ===== */
+label,
+legend {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  display: block;
+}
+
+/* ===== Inputs ===== */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.25rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+/* ===== Date input icon spacing ===== */
+input[type="date"] {
+  padding-right: 0.5rem;
+}
+
+/* ===== Fieldsets ===== */
+fieldset {
+  border: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+/* ===== Rating Stars ===== */
+.rating {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.rating label {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.radiob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  
+  .radiob label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: normal;
+    font-size: 0.85rem;
+  }
+  
+  .radio input[type="radio"] {
+    margin-bottom: 0.25rem;
+  }
+
+.rating input[type="radio"] {
+  margin-right: 0.25rem;
+}
+
+/* ===== Checkbox Group Layout ===== */
+.featuresc {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.featuresc label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  font-size: 0.85rem;
+  gap: 0.5rem;
+}
+
+.featuresc input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+/* ===== Optional text ===== */
+.optional {
+  font-weight: normal;
+  font-size: 0.75rem;
+  color: #2a5bd7;
+}
+
+/* ===== Textarea ===== */
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+/* ===== Submit Button ===== */
+input[type="submit"] {
+  background-color: #efefef;
+  border: 1px solid #999;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e0e0e0;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #3b003b;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.75rem;
+}

@@ -6,20 +6,24 @@
   <meta name="author" content="Bello Amos">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site Plan | Discover Daily Need Distributors Ltd</title>
-  <link rel="stylesheet" href="styles/siteplan.css">
 
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
 
+  <!-- CSS -->
   <link rel="stylesheet" href="styles/siteplan.css">
 
+  <!-- JavaScript -->
+  <script src="scripts/siteplan.js" defer></script>
 </head>
+
 <body>
 
 <header>
   <h1>Website Site Plan</h1>
-  <p>Discover Daily Need Distributors Ltd</p>
+  <p><strong>Discover Daily Need Distributors Ltd</strong></p>
 </header>
 
 <main>
@@ -58,38 +62,26 @@
   <section>
     <h2>Color Schema</h2>
     <ul>
-      <li>
-        <strong>Primary Blue (#0D47A1):</strong>
-        Used for headings, navigation, and key sections to represent trust and professionalism.
-      </li>
-      <li>
-        <strong>White (#FFFFFF):</strong>
-        Used for the main background and content areas to ensure clarity and readability.
-      </li>
-      <li>
-        <strong>Accent Red (#C62828):</strong>
-        Used sparingly for highlights, borders, and important emphasis.
-      </li>
+      <li><strong>Primary Blue (#0D47A1):</strong> Used for headings and navigation.</li>
+      <li><strong>White (#FFFFFF):</strong> Used for background and clarity.</li>
+      <li><strong>Accent Red (#C62828):</strong> Used for highlights and emphasis.</li>
     </ul>
   </section>
-  
 
   <!-- Typography -->
   <section>
     <h2>Typography</h2>
     <ul>
-      <li>
-        <strong>Montserrat:</strong> Used for headings and navigation.
-      </li>
-      <li>
-        <strong>Open Sans:</strong> Used for body text and paragraphs.
-      </li>
+      <li><strong>Montserrat:</strong> Used for headings and navigation.</li>
+      <li><strong>Open Sans:</strong> Used for body text.</li>
     </ul>
   </section>
 
   <!-- Wireframes -->
   <section>
     <h2>Wireframes</h2>
+
+    <button id="toggleWireframe">Toggle Wireframe Highlight</button>
 
     <h3>Mobile View</h3>
     <div class="wireframe">
@@ -114,7 +106,7 @@
 </main>
 
 <footer>
-  <p>&copy; 2026 Discover Daily Need Distributors Ltd | Site Plan</p>
+  <p>&copy; <span id="year"></span> Discover Daily Need Distributors Ltd | Site Plan</p>
 </footer>
 
 </body>

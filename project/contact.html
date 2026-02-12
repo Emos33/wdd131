@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Needs Distributors | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Daily Needs Distributors</h1>
+        <div class="header-bar">
+          <!-- <span id="site-title">Daily Needs Distributors</span> -->
+          <button id="menuButton" aria-label="Toggle Menu">☰</button>
+        </div>
+        <nav aria-label="Main Navigation">
+          <ul class="nav">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+<main>
+
+<section>
+  <h2>Contact Us</h2>
+
+  <form id="contactForm">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" required>
+
+    <label for="category">Inquiry Type</label>
+    <select id="category" required>
+      <option value="">Select</option>
+      <option value="bulk">Bulk Order</option>
+      <option value="retail">Retail Inquiry</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="confirmation"></p>
+
+</section>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Daily Needs Distributors</p>
+  <p id="time"></p>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

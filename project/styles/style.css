@@ -22,7 +22,7 @@
   /* Header Layout */
 .header-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -30,6 +30,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
+  
 }
 
 /* Menu Button */
